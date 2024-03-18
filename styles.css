@@ -1,0 +1,87 @@
+/* Center the game container */
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center; /* Horizontally center the container */
+  align-items: center; /* Vertically center the container */
+  margin-top: 50px; /* Adjust the margin from the top */
+}
+
+/* Game container styling */
+.game-container {
+  text-align: center;
+}
+
+/* Grid for Tic Tac Toe */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 0px;
+}
+
+/* Cell styling */
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  border: 3px solid black;
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Current player's turn */
+.turn {
+  color: blue;
+  font-family: cursive;
+}
+
+/* Bootstrap alert styling */
+.alert {
+  margin-top: 20px;
+}
+
+/* Scoreboard styling */
+.scoreboard {
+  margin-top: 40px;
+  border: 5px solid black; /* Add a black border */
+  padding: 0px; /* Add some padding */
+  font-family: cursive;
+  font-size: 18px;
+
+}
+
+/* Style for X to change the color to blue */
+.cell[data-value="X"] {
+  color: blue; /* Change X color to blue */
+}
+
+/* Style for O to change the color to red */
+.cell[data-value="O"] {
+  color: red; /* Change O color to red */
+}
+
+/* Button to restart the game */
+button {
+  margin-top: 20px; 
+}
+
+.title {
+  text-align: center;
+  font-size: large;
+}
+
+h1 {
+  font-size: 50;
+}
+
+h2 {
+  text-align: center;
+  color: blue;
+  font-size: 150;
+  font-family: cursive;
+  margin-bottom: 0; 
+}
+  
